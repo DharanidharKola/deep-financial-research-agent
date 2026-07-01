@@ -1,0 +1,23 @@
+# Environment
+.env
+
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/
+
+# Generated reports
+reports/
+
+# Annual report PDFs (recommended)
+data/**/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db

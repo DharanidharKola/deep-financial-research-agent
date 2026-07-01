@@ -1,0 +1,61 @@
+# Frontend
+streamlit>=1.48.0
+plotly
+
+# Backend API
+fastapi>=0.118.0
+uvicorn>=0.37.0
+
+# LangChain & LangGraph
+langchain>=0.3.27
+langchain-core>=0.3.76
+langchain-openai>=0.3.33
+langgraph>=0.6.7
+
+# OpenRouter Support
+openai>=1.107.0
+
+# RAG
+chromadb>=1.0.20
+sentence-transformers>=5.1.0
+langchain-community>=0.3.29
+langchain-chroma>=0.2.6
+langchain-huggingface>=0.3.29
+langchain-chroma
+langchain-text-splitters
+langchain-pinecone
+pinecone
+groq
+langchain-groq
+
+# PDF Processing
+pypdf>=6.0.0
+reportlab
+fpdf2
+
+# Environment Variables
+python-dotenv>=1.1.1
+
+# Web Search
+tavily-python>=0.7.11
+
+# Financial Data
+yfinance>=0.2.66
+
+# Data Processing
+pandas>=2.3.2
+numpy>=2.3.3
+
+# Embeddings Dependencies
+torch>=2.8.0
+transformers>=4.56.0
+
+# Report Generation
+markdown>=3.9
+reportlab>=4.4.4
+
+# Utilities
+requests>=2.32.5
+tqdm>=4.67.1
+
+sentence-transformers>=5.1.0

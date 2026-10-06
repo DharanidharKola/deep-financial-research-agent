@@ -166,10 +166,7 @@ if st.button(
 
                 "Profit Margin (%)":
                 round(
-                    data.get(
-                        "profit_margin",
-                        0
-                    ) * 100,
+                    float(data.get("profit_margin") or 0) * 100,
                     2
                 )
 
